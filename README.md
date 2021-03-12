@@ -10,5 +10,5 @@ We used the nuScenes dataset, available at www.nuScenes.org. (Or, you could try 
 You can find our paper, published in ICIP 2020, [here](http://www-video.eecs.berkeley.edu/papers/mccrae/ICIP_Extended_Results_9_23_Revision.pdf).
 The all.pp.mida.config setup was used to generate results for our paper, and should be the starting point for reproducing them.
 
-You can run the model with commands like this:
+You can train a model with commands like this:
 `python ./pytorch/train.py train --config_path=./configs/<your_config> --model_dir=<path_to_your_model_directory>`
